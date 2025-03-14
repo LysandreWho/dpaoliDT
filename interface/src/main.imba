@@ -19,7 +19,7 @@ tag Dashboard
 			grg:0px 
 			gta:"header header header header header""sidebar midbar midbar midbar midbar""sidebar main main second second""sidebar main main second second" "sidebar main main second second"   
 			bg:#F5F5F5 
-			
+			& >* justify-self: stretch align-self: stretch
 		
 	
 		<.header>
@@ -30,7 +30,7 @@ tag Dashboard
 			<h1> "MIDBAR"	
 
 		<.sidebar>
-			css w:fit-content h:100% bg:#1e293b c:white px:4 d:flex fld:column grid-area: sidebar  bd: 1px solid gray  
+			css position: relative h:100% bg:#1e293b c:white px:4 d:flex fld:column grid-area: sidebar  bd: 1px solid gray justify-self: stretch align-self: strecth 
 			<h2> "Eventos"
 			
 			
